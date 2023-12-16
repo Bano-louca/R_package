@@ -1,0 +1,9 @@
+Package: Bano_R_package
+Type: Package
+Title: Collection of Bano's functions
+Version: 0.1.0
+Author: Panayiotis Louca
+Maintainer: Panayiotis Louca <bano.louca@ncl.ac.uk>
+Description: Collection of functions
+Encoding: UTF-8
+LazyData: true
