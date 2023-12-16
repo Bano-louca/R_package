@@ -29,10 +29,11 @@ Create_heatmap(dat, stratify_by_group, Transparency_level, X_axis_label_orientat
   }
   
 }
-\(Optional){
-\item{group}{
-  labels denoting grouping
-  }
+\Optional{
+
+  \item{group}{
+       Variable to denote groups
+  } 
 }
 \author{
 Panayiotis Louca
