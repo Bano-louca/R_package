@@ -11,14 +11,29 @@ Create_heatmap(dat, stratify_by_group, Transparency_level, X_axis_label_orientat
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{dat}{ Dataset in the long format with 4 columns,
-    x_axis_labels: the labels for the x axis,
-    y_axis_labels: the labels for the y axis,
-    correlation_coefficient: the coefficients to plot,
-    pvalue: the p values from the correlation tests
-    groups: (optional) labels denoting grouping
-}
+
+  \item{dat}{
+       Dataset in the long format with 4 columns
+  }
+  \item{x_axis_labels}{
+       the labels for the x axis
+  }
+  \item{y_axis_labels}{
+       the labels for the y axis
+  }
+  \item{correlation_coefficient}{
+       the coefficients to plot
+  }
+  \item{pvalue}{
+       the p values from the correlation tests
+  }
+  \item{groups}{
+  (optional) labels denoting grouping
+  }
 }
 \author{
 Panayiotis Louca
+}
+
+
 }
