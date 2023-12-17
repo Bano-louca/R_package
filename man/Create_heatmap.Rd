@@ -9,7 +9,7 @@ This function creates a heatmap using ggplot with or without stratifying by grou
 \usage{
 Create_heatmap(dat, stratify_by_group, Transparency_level, X_axis_label_orientation, y_axis_plot_order = NULL, x_axis_plot_order = NULL)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
 
   \item{dat}{
@@ -27,8 +27,8 @@ Create_heatmap(dat, stratify_by_group, Transparency_level, X_axis_label_orientat
   \item{pvalue}{
        the p values from the correlation tests
   }
-  \item{group}{
-      \md{Optional} labels denoting grouping
+  \item{group (Optional)}{
+      labels denoting grouping
   }
 }
 \author{
