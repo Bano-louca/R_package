@@ -40,7 +40,7 @@ Create_heatmap(dataFrame = NULL,
       Percentage of transparency to apply to non-significant box labels (coefficient & p-values). Higher = more transparent (default = 25)
   }
   \item{X_axis_label_orientation (Optional)}{
-      Orientation of x axis labels. Must be either 45 or 90
+      Orientation of x axis labels. Must be either 45 or 90 (deafault = 45)
   }
 }
 \author{
