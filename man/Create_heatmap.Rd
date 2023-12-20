@@ -4,10 +4,16 @@
 Function to create a heatmap with/without stratifying by groups
 }
 \description{
-This function creates a heatmap using ggplot with or without stratifying by groups, optiional arguements to alter transparency level for non-sig correlations.
+This function creates a heatmap using ggplot with or without stratifying by groups. Optional arguements to alter transparency level for non-sig correlations and change x axis label orientation.
 }
 \usage{
-Create_heatmap(dat, stratify_by_group, Transparency_level, X_axis_label_orientation, y_axis_plot_order = NULL, x_axis_plot_order = NULL)
+Create_heatmap(dataFrame = NULL,
+               x_axis_labels = NULL,
+               y_axis_labels = NULL,
+               correlation_coefficient = NULL,
+               pvalue = NULL,
+               group = NULL,
+               Transparency_level = 25, X_axis_label_orientation = 45)
 }
 
 \arguments{
@@ -29,6 +35,12 @@ Create_heatmap(dat, stratify_by_group, Transparency_level, X_axis_label_orientat
   }
   \item{group (Optional)}{
       labels denoting grouping
+  }
+    \item{Transparency_level (Optional)}{
+      Percentage of transparency to apply to non-significant box labels (coefficient & p-values). Higher = more transparent (default = 25)
+  }
+  \item{X_axis_label_orientation (Optional)}{
+      Orientation of x axis labels. Must be either 45 or 90
   }
 }
 \author{
